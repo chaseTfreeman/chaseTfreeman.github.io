@@ -42,34 +42,37 @@ nav a{
   transition:background-color .2s;
   text-decoration: none;
 }
-nav a:hover{
+.navLink:hover{
   background-color:#9DCD00;
 }
 .navLink {
   width: 30%;
+  height: 100px;
   float: left;
-  border-color: black;
+  ;
 }
 
-.project{
+.project1{
   width:100%;
-  height: 200px;
-<<<<<<< HEAD
-=======
-  /********Use Background property below**********/
-  background: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/View_from_connors_hill_panorama.jpg")
-
+  height: 300px;
+  background: url("project1.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .project2{
   width:100%;
-  height: 200px;
-  content:url("http://photoblogstop.com/wp-content/uploads/2012/07/Sierra_HDR_Panorama_DFX8048_2280x819_Q40_wm_mini.jpg");
+  height: 500px;
+  background:url("project2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .project3{
   width:100%;
-  height: 200px;
-  content:url("https://upload.wikimedia.org/wikipedia/commons/e/ea/Sydney_Harbour_Bridge_night.jpg");
->>>>>>> 83ed836d85787d504e58d348ff9955eed2e7cfc7
+  height: 500px;
+  background:url("project3.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 footer nav {
@@ -77,4 +80,10 @@ footer nav {
   padding:50px;
   margin:0 auto;
   text-align:center;
+}
+
+@media (max-width: 1100px) {
+  .project1 {
+
+  }
 }
