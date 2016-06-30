@@ -57,7 +57,9 @@ nav a:hover{
 .project{
   width:100%;
   height: 200px;
-  content:url("https://upload.wikimedia.org/wikipedia/commons/c/cd/View_from_connors_hill_panorama.jpg");
+  /********Use Background property below**********/
+  background: url("https://upload.wikimedia.org/wikipedia/commons/c/cd/View_from_connors_hill_panorama.jpg")
+
 }
 .project2{
   width:100%;
