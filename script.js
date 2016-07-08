@@ -1,9 +1,4 @@
 
-$(document).ready( function() {
-    $('.subMenu').smint({
-    	'scrollSpeed' : 1000
-    });
-});
 
     (function(){
 
@@ -184,5 +179,4 @@ $(document).ready( function() {
     	};
 
     	$.fn.smint.defaults = { 'scrollSpeed': 500, 'mySelector': 'div'};
-    })(jQuery);
-});
+    });
