@@ -1,172 +1,161 @@
-* {margin: 0; padding: 0; outline: 0;}
-
-
-body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	color: #e5e5e5;
-	font-size: 12px;
-	background:#bfbfbf;
-
-
+.row {
+  margin-top: 30px;
+}
+#foodme-mockup{
+  background-image: url('Foodme.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80%;
+}
+#foodme-mockup:hover {
+  background-image: url('picstory-shot.png');
+  -webkit-transition-duration: .3s; /* Safari */
+  transition-duration: .3s;
+}
+#picstory-mockup{
+  background-image: url('Picstory.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 80%;
+  -webkit-transition-duration: .3s; /* Safari */
+  transition-duration: .3s;
+}
+#picstory-mockup:hover {
+  background-image: url('picstory-shot.png');
+  -webkit-transition-duration: .3s; /* Safari */
+  transition-duration: .3s;
 }
 
-
-h1, h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	margin:0 0 15px 0;
+span {
+  color: red;
+  font-weight: bolder;
+}
+button {
+  margin: 0 auto;
+  width: 100%;
+}
+.text-box {
+  padding-top: 20px;
+}
+.row{
+  height: 500px;
 }
 
-
-h1 {
-	font-size: 36px;
-	letter-spacing: -1px;
-	line-height: 100%;
+.navbar-toggle {
+  height: auto;
+  width: auto;
 }
-
-
-h2 {
-	font-size: 24px;
+nav {
+  position: fixed;
+  z-index: 100;
 }
-
-
-p {
-	margin: 0 0 15px 0;
+.headshot {
+  height: 50%;
+  width: 50%;
+  border-radius: 80%;
+  margin: 10px;
 }
-
-a {
-	color: #3e3e3e;
+#headshot-box{
+  float: right;
+  padding: 20px;
 }
-
-
-
-.clear {
-	clear: both;
+.col-md-12 {
+  height: 100vh;
 }
-.wrap {
-	width: 100%;
-	max-width: 1600px;
-	min-width: 960px;
-	z-index: 10;
-	position: relative;
-	margin: 0 auto;
-	padding: 0;
+.container {
+  height: 100vh;
+}
+.jumbotron{
+  margin-top: 50px;
+  background-image:url("http://www.photos-public-domain.com/wp-content/uploads/2011/03/white-linen-paper-texture.jpg");
 
 }
-
-
-
-.section {
-	width: 100%;
-	max-width: 1600px;
-	min-width: 960px;
-	z-index: 10;
-	position: relative;
-	margin: 0 auto;
-	padding: 0 0 20px 0;
-	height: 500px;
+.opaque {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
 }
-
-
-.inner {
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-	min-height: 50px;
-	padding:30px 0;
-	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+.opaque-header{
+  background-color: rgba(255, 255, 255, 0.4);
 }
-
-.inner:after {
-	  content: "";
-	  display: table;
-	  clear: both;
+.h1-header{
+  width:70%;
+  margin: 0px;
 }
-
-
-.subMenu {
-	height: 50px;
-	z-index: 1000;
-	width: 100%;
-	background: #0977bc;
-}
-
-.subMenu .inner {
-	padding:0;
-	font-weight: 400;
-	margin: 0 auto;
-}
-
-
-.subNavBtn {
-	display: block;
-	height: 35px;
-	width: 10%;
-	float: left;
-	margin: 0px 0px 0 0;
-	text-decoration: none;
-	font-size: 14px;
-	padding: 15px 2% 0 2%;
-	text-align: center;
-
-	color: #fff;
-}
-.subMenu a:hover {
-	background: #1783c7;
-}
-
-.active {
-	background: #25aae1;
-}
-.end {
-	margin: 0;
-}
-
-
-
-
-/* SECTIONS */
-.sTop {
-	min-height: 130px;
-	background:#fff;
-	color:#3d3d3d;
-	padding: 50px 0;
-	height: 300px;
+.social-footer{
+  height:10em;
+  width: 100%;
 
 }
-
-.s1 {
-	background:#184764;
-	color:#fff;
-
+/* ============================================================
+PARRALAX PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* ============================================================
+SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("foodme-code.png");
+}
+section.module.parallax-2 {
+  background-image: url("picstory-code.png");
+}
+section.module.parallax-3 {
+  background-image: url("../img/demo/_small/3.jpg");
 }
 
-
-.s2 {
-	background: #313131;
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
 }
-.s2 a {
-	color: #fff;
-}
-
-.s3 {
-	background: #1b83b3;
-}
-
-
-.s4 {
-	background: #5aa3c4;
-}
-
-
-
-.s5 {
-	background: #bce1f1;
-	color: #3d3d3d;
-}
-
-.s6 {
-	background: #161616;
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
 }
