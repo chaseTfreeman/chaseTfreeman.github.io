@@ -13,28 +13,34 @@
 
 }
 .navbar-nav li a {
-    color: black;
-    line-height: 100px;
-    height: 95px;
-    padding-top: 0;
+  color: black;
+  line-height: 100px;
+  height: 95px;
+  padding-top: 0;
+  left: 160px;
+}
+.foodme-scroll{
+  height: 30px;
 }
 
 
 ul.nav li a, ul.nav li a:visited {
-    background-color: white!important;
+  background-color: white!important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 ul.nav li.active a {
-    background-color: white !important;
+  background-color: white !important;
 }
 .brand {
   height: 100%;
   padding: 15px;
   width: auto;
+  position: absolute;
+  left: 65px;
 }
 #link-btn{
   width: 100%;
@@ -45,6 +51,8 @@ ul.nav li.active a {
   background-position: center;
   background-size: contain;
   height: 80%;
+  -webkit-transition-duration: .8s; /* Safari */
+  transition-duration: .8s;
 }
 #foodme-mockup:hover {
   background-image: url('food-me-shot.png');
@@ -56,7 +64,7 @@ ul.nav li.active a {
   background-image: url('Picstory.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   height: 80%;
   -webkit-transition-duration: .8s; /* Safari */
   transition-duration: .8s;
@@ -75,6 +83,33 @@ span {
 button {
   margin: 0 auto;
   width: 100%;
+}
+.github{
+  height:95px;
+  width: 95px;
+  position: absolute;
+  right: 160px;
+  padding: 10px;
+}
+.phone-number{
+  color: black;
+  height:95px;
+  text-align: center;
+  width: 120px;
+  position: absolute;
+  right: 340px;
+  padding: 10px;
+}
+.inner-text{
+  position: absolute;
+  bottom: 0;
+}
+.linkedIn{
+  height:95px;
+  width: 95px;
+  position: absolute;
+  right: 70px;
+  padding: 10px;
 }
 .text-box {
   padding-top: 20px;
