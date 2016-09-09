@@ -1,6 +1,19 @@
 .row {
   margin-top: 30px;
-  height: 100vh;
+  height: 80vh;
+}
+.row-resume {
+  margin-top: 30px;
+  height: 150vh;
+}
+.resume{
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+object{
+  width: 100%;
+  height: 100%;
 }
 .navbar{
   height: 100px;
@@ -46,20 +59,20 @@ ul.nav li.active a {
   width: 100%;
 }
 #foodme-mockup{
-  background-image: url('Foodme.jpg');
+  background-image: url('https://i.gyazo.com/48438ce97998aa794ea2a8be769f2407.gif');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: contain;
   height: 80%;
   -webkit-transition-duration: .8s; /* Safari */
   transition-duration: .8s;
 }
-#foodme-mockup:hover {
+/*#foodme-mockup:hover {
   background-image: url('food-me-shot.png');
   -webkit-transition-duration: .8s; /* Safari */
   transition-duration: .8s;
   height: 80%;
-}
+}*/
 #picstory-mockup{
   background-image: url('Picstory.jpg');
   background-repeat: no-repeat;
@@ -75,7 +88,15 @@ ul.nav li.active a {
   transition-duration: .8s;
   height: 80%;
 }
-
+#picstory-mockup{
+  background-image: url('Picstory.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  -webkit-transition-duration: .8s; /* Safari */
+  transition-duration: .8s;
+}
 span {
   color: red;
   font-weight: bolder;
@@ -113,10 +134,9 @@ button {
 }
 .text-box {
   padding-top: 20px;
+  padding-right: 15px;
 }
-.row{
-  height: 500px;
-}
+
 
 .navbar-toggle {
   height: auto;
@@ -138,6 +158,12 @@ nav {
 }
 .col-md-12 {
   height: 100vh;
+}
+.col-md-6 {
+  height: 600px;
+  float: left;
+  left: 15px;
+  right: 15px;
 }
 
 .container {
@@ -195,6 +221,9 @@ section.module p:last-child {
 section.module.content {
   padding: 40px 0;
 }
+section.module.content-resume {
+  padding: 40px 0;
+}
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;
@@ -218,7 +247,7 @@ section.module.parallax-2 {
   background-image: url("picstory-code.png");
 }
 section.module.parallax-3 {
-  background-image: url("../img/demo/_small/3.jpg");
+  background-image: url("blue-colors.jpg");
 }
 
 @media all and (min-width: 600px) {

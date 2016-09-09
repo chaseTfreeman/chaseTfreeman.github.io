@@ -40,4 +40,9 @@ $(document).ready(function() {
           scrollTop: $(".picstory-start-scroll").offset().top},
           'slow');
   });
+  $(".resume-scroll").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".resume-start-scroll").offset().top},
+          'slow');
+  });
 });
