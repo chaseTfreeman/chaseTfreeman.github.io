@@ -9,6 +9,7 @@ $(document).ready(function() {
   //     'opacity' : 1.5 -(($(this).scrollTop())/1500)
   //     });
   // });
+
   $(".foodme-scroll").click(function() {
       $('html,body').animate({
           scrollTop: $(".foodme-start-scroll").offset().top},
@@ -17,6 +18,11 @@ $(document).ready(function() {
   $(".picstory-scroll").click(function() {
       $('html,body').animate({
           scrollTop: $(".picstory-start-scroll").offset().top},
+          'slow');
+  });
+  $(".hanoi-scroll").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".hanoi-start-scroll").offset().top},
           'slow');
   });
   $(".resume-scroll").click(function() {
