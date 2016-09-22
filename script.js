@@ -30,4 +30,9 @@ $(document).ready(function() {
           scrollTop: $(".resume-start-scroll").offset().top},
           'slow');
   });
+  $(".about-scroll").click(function() {
+      $('html,body').animate({
+          scrollTop: $(".about-start-scroll").offset().top},
+          'slow');
+  });
 });
